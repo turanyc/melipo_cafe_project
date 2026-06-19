@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+# Rewrite /menu or /menu/ to menu.php
+RewriteRule ^menu/?$ menu.php [L,QSA]
